@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-content animate zoom-in">
+    <h1>Hello, I'm <span>Aarchi Patel</span></h1>
+    <p class="typing"></p>
+    <a href="resume.pdf" download class="resume-btn">Download Resume</a>
+  </section>
+
+ <!-- About Section -->
+<section id="about" class="animate slide-left">
+    <h2>About Me</h2>
+    <p>
+      I'm a passionate Full Stack Web Developer with hands-on experience in both frontend and backend technologies.
+      I build responsive, modern websites using HTML, CSS, JavaScript, and frameworks like React. On the backend,
+      I develop scalable systems using PHP, Node.js, and MySQL.
+    </p>
+    <p>
+      I specialize in real-time applications such as live chat systems, notifications, and collaborative tools using AJAX and WebSockets.
+    </p>
+    <p>
+      Whether it’s crafting beautiful UIs, writing clean backend logic, or deploying apps for production, I bring complete solutions
+      to the table with a focus on performance, interactivity, and user experience.
+    </p>
+  </section>
+  
+
+  <!-- Projects Section -->
+<section id="projects" class="animate slide-right">
+    <h2>Projects</h2>
+    <div class="project-grid">
+  
+      <div class="project-card animate zoom-in">
+        <h3>Government Schemes Portal</h3>
+        <p>
+          A centralized platform displaying government schemes using dynamic data rendering and filters. Built with PHP, MySQL, and responsive frontend to ensure accessibility across all devices.
+        </p>
+      </div>
+  
+      <div class="project-card animate zoom-in">
+        <h3>ResinByKajol – Instagram Business Site</h3>
+        <p>
+          A clean and modern website built for a small Instagram-based resin art business. Includes product galleries, order inquiry form, Instagram integration, and responsive design to reflect the brand's aesthetic.
+        </p>
+      </div>
+      
+  
+      <div class="project-card animate zoom-in">
+        <h3>Ayura - Mood-Based Support Platform</h3>
+        <p>
+          A unique emotional support and activity-based web app where users interact based on mood (happy, sad, stressed, etc.). Includes games, drawing tools, journaling, chat system, and more — all in a modern, animated UI.
+        </p>
+      </div>
+  
+    </div>
+  </section>
+  
+
+  <!-- Contact Section -->
+  <section id="contact" class="animate slide-left">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Aarchi Patel. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
